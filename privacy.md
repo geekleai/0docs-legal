@@ -20,8 +20,6 @@ We may collect two types of information: (A) information that you provide direct
 
 - **Feedback and Communications:** If you provide feedback, fill out a survey, or communicate with us (for example, emailing support or using a feedback form), we will collect the information you share. This might include your email, the content of your message, and any attachments.
 
-
-### B. Information Collected Automatically:
 ### B. Information Collected Automatically:
 
 - **Usage Data:** We may automatically collect certain technical information when you use the Platform. This can include log data like the date and time of your use, the type of actions performed (e.g., queries made, features used), your IP address, browser type, and operating system. We collect this primarily to monitor the system performance, ensure security, and improve the Service.
