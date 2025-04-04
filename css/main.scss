@@ -1,0 +1,182 @@
+
+
+
+// Defs
+$em: calc(18 / 16) * 1rem;
+$spacing: 18px;
+
+
+// fonts
+$sans-serif: system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$monospace: Menlo, Monaco, Consolas, 'Courier New', monospace;
+
+// colors
+$black: #000;
+$white: #fff;
+$gray: #595959;
+$blue: #275a90;
+$red: #db423c;
+$green: #2a6f3b;
+$yellow: #ffc;
+
+// responsive
+$mobile-width: 767px;
+
+%sans-serif {
+  font-family: $sans-serif;
+  font-size: $em;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.65 * $em;
+}
+
+// headlines
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $black;
+  margin-bottom: $em;
+}
+
+h1 {
+  font-size: 2 * $em;
+  font-weight: 500;
+  line-height: 2.4 * $em;
+  margin-top: 1 * $em;
+}
+
+h2 {
+  font-size: 1.4 * $em;
+  font-weight: 400;
+  line-height: 1.9 * $em;
+  margin-top: 3 * $em;
+}
+
+h3 {
+  font-size: 1.2 * $em;
+  line-height: 1.5 * $em;
+  margin-top: 2 * $em;
+}
+
+h4 {
+  font-size: $em;
+  line-height: 1.3 * $em;
+  margin-top: $em;
+}
+
+h5 {
+  font-size: .8 * $em;
+  font-weight: bold;
+  line-height: 1.2 * $em;
+  text-transform: uppercase;
+}
+
+h6 {
+  color: $gray;
+  font-size: .8 * $em;
+  font-weight: bold;
+  line-height: 1 * $em;
+  text-transform: uppercase;
+}
+
+
+header,
+footer {
+	text-align: center;
+}
+
+article {
+	border: 0;
+}
+
+.logo {
+	width: 64px;
+	height: 64px;
+}
+
+.subline {
+	margin-left: 0;
+	li {
+		margin-right: 1em;
+		display: inline;
+		list-style: none;
+	}
+}
+
+
+// typography 
+
+
+a {
+	color: $blue;
+	text-decoration: none;
+  
+	&:hover {
+	  text-decoration: underline;
+	}
+  }
+  
+  hr {
+	border-bottom: 1px solid $gray;
+  }
+  
+  figcaption,
+  small {
+	font-size: .85 * $em;
+  }
+  
+  figcaption {
+	color: $gray;
+  }
+  
+  var,
+  em,
+  i {
+	font-style: italic;
+  }
+  
+  dt,
+  strong,
+  b {
+	font-weight: 600;
+  }
+  
+  del,
+  s {
+	text-decoration: line-through;
+  }
+  
+  ins,
+  u {
+	text-decoration: underline;
+  }
+  
+  sub,
+  sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+  }
+  
+  sup {
+	top: -.5em;
+  }
+  
+  sub {
+	bottom: -.25em;
+  }
+
+
+//   Body
+
+body {
+	@extend %sans-serif;
+	background: $white;
+	color: lighten($black, 10);
+	padding: $spacing;
+}
