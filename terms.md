@@ -26,7 +26,7 @@ Pilot Nature: You understand that the Platform is provided as a pilot program (a
 
 - **Azure’s OpenAI Service** processes your prompts in a similar way. Your prompts and the AI outputs are not used to train or improve OpenAI’s models, not shared with other customers, and not sent to OpenAI’s own servers.  
    [learn.microsoft.com](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#:~:text=,available%20exclusively%20for%20your%20use)  
-   Microsoft may temporarily retain the content of requests for abuse monitoring (up to ~30 days) but then deletes it, and such data is encrypted in transit and at rest.  
+   Microsoft may temporarily retain the content of requests for abuse monitoring (up to 30 days) but then deletes it, and such data is encrypted in transit and at rest.  
    [learn.microsoft.com](https://learn.microsoft.com/en-us/answers/questions/2181252/azure-openai-data-retention-privacy-2025#:~:text=As%20of%20the%20latest%20updates%2C,is%20not%20accessible%20to%20other)  
    During retention it is inaccessible to OpenAI or other third parties.  
    [learn.microsoft.com](https://learn.microsoft.com/en-us/answers/questions/2181252/azure-openai-data-retention-privacy-2025#:~:text=As%20of%20the%20latest%20updates%2C,is%20not%20accessible%20to%20other)
