@@ -84,13 +84,8 @@ You grant 0DOCS (and its service providers, such as AWS/Azure and the AI model p
 
 **No Guarantee of Availability:** 0DOCS does not warrant that the Platform will be uninterrupted, error-free, or free of harmful components. Because this is a pilot, there may be occasional outages, updates, or changes that affect availability. We are not responsible for any delay, downtime, or data loss that may occur. (However, we will do our best to maintain a stable service and protect your data as described.)
 
-**No Warranty on Third-Party Services:** While 0DOCS integrates respected third-party services (AWS, Azure, OpenAI, Anthropic), we do not make any warranties on their behalf. We rely on their stated practices (for example, regarding data privacy and security), but 0DOCS is not liable for any issues attributable to those third-party components. That said, **we have taken steps to ensure** our vendors maintain high standards (e.g., AWS and Azure are reputable for security, and they do not use your data for their own purposes​
-
-[docs.aws.amazon.com](https://docs.aws.amazon.com/bedrock/latest/userguide/data-protection.html#:~:text=Amazon%20Bedrock%20doesn%27t%20store%20or,distribute%20them%20to%20third%20parties)
-
-​
-
-[learn.microsoft.com](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#:~:text=,available%20exclusively%20for%20your%20use)
+**No Warranty on Third-Party Services:** While 0DOCS integrates respected third-party services (AWS, Azure, OpenAI, Anthropic), we do not make any warranties on their behalf. We rely on their stated practices (for example, regarding data privacy and security), but 0DOCS is not liable for any issues attributable to those third-party components. That said, **we have taken steps to ensure** our vendors maintain high standards (e.g., AWS and Azure are reputable for security, and they do not use your data for their own purposes​: [docs.aws.amazon.com](https://docs.aws.amazon.com/bedrock/latest/userguide/data-protection.html#:~:text=Amazon%20Bedrock%20doesn%27t%20store%20or,distribute%20them%20to%20third%20parties)
+and [learn.microsoft.com](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#:~:text=,available%20exclusively%20for%20your%20use)
 
 
 ## **7. Limitation of Liability**
